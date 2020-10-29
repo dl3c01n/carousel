@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <title>Carousel</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="images fade">
+          <img src="https://cdn.pixabay.com/photo/2020/10/11/09/04/peak-5645235_960_720.jpg" style="width:100%">
+        </div>
+        
+        <div class="images fade">
+          <img src="https://flower-wallpaper.free-online.gratis/Background-960-640/Wondrous-69.jpg" style="width:100%">
+        </div>
+        
+        <div class="images fade">
+          <img src="https://img.autojournal.fr/news/2020/09/17/1549837/1b38f3041d63f8c3b60ae44d-960-640.jpg" style="width:100%">
+        </div>
+        
+        
+        <a id="previous">&#10094;</a>
+        <a id="next">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="navigation"></span> 
+          <span class="navigation"></span> 
+          <span class="navigation"></span> 
+        </div>
+
+        <form>
+            <input type="range" name="bgopacity" id="bgopacity" value="50" min="0" max="100" step="1">
+            <output id="rangevalue">50</output>
+        </form>
+
+    <script src="./assets/js/index.js"></script>
+
+</body>
+
+</html>
